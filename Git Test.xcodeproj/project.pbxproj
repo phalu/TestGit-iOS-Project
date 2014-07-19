@@ -21,6 +21,7 @@
 		0491C126197A22C70037E4A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0491C108197A22C70037E4A3 /* UIKit.framework */; };
 		0491C12E197A22C70037E4A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0491C12C197A22C70037E4A3 /* InfoPlist.strings */; };
 		0491C130197A22C70037E4A3 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C12F197A22C70037E4A3 /* Git_TestTests.m */; };
+		0491C13B197A25600037E4A3 /* PYTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C13A197A25600037E4A3 /* PYTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0491C12B197A22C70037E4A3 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		0491C12D197A22C70037E4A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0491C12F197A22C70037E4A3 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		0491C139197A25600037E4A3 /* PYTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYTest.h; sourceTree = "<group>"; };
+		0491C13A197A25600037E4A3 /* PYTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		0491C0F8197A22C70037E4A3 = {
 			isa = PBXGroup;
 			children = (
+				0491C139197A25600037E4A3 /* PYTest.h */,
+				0491C13A197A25600037E4A3 /* PYTest.m */,
 				0491C10A197A22C70037E4A3 /* Git Test */,
 				0491C129197A22C70037E4A3 /* Git TestTests */,
 				0491C103197A22C70037E4A3 /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0491C13B197A25600037E4A3 /* PYTest.m in Sources */,
 				0491C11B197A22C70037E4A3 /* PYViewController.m in Sources */,
 				0491C111197A22C70037E4A3 /* main.m in Sources */,
 				0491C115197A22C70037E4A3 /* PYAppDelegate.m in Sources */,
